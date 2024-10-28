@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100vw;
+    background-color: #343a40;
+    color: white;
+    padding: 1vw 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1vw;
+}
+
+.textodapagina h1 {
+    font-size: 2.5vw;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    margin-left: 1.5vw;
+}
+
+.links a:hover {
+    color: #007bff;
+}
+
+main {
+    padding-top: 6vw; /* Adiciona espaço para o cabeçalho fixo */
+}
+
+.jumbotron {
+    width: 100vw;
+    background-color: rgb(29, 83, 232);
+    color: white;
+    text-align: center;
+    padding: 8vw 2vw;
+    margin: 4vw 0; /* Espaço acima e abaixo da jumbotron */
+}
+
+.jumbotron h1 {
+    font-size: 3vw;
+    margin-bottom: 1vw;
+}
+
+.jumbotron p {
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+.jumbotron button {
+    background-color: #28a745;
+    border: none;
+    padding: 1vw 2vw;
+    color: white;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.jumbotron button:hover {
+    background-color: #218838;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vw 0;
+    padding: 2vw;
+}
+
+.feature {
+    width: 25vw;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2vw;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+    color: #343a40;
+    font-size: 1.8vw;
+    margin-bottom: 1vw;
+}
+
+.feature p {
+    color: #6c757d;
+    font-size: 1.2vw;
+}
+
+footer {
+    text-align: center;
+    padding: 2vw 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
